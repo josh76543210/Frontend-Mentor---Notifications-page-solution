@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/notifications-page-gkjpMxv5V2](https://www.frontendmentor.io/solutions/notifications-page-gkjpMxv5V2)
+- Live Site URL: [https://josh76543210-fm-notifications-page.netlify.app/](https://josh76543210-fm-notifications-page.netlify.app/)
 
 ## My process
 
