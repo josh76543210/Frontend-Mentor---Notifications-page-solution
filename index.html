@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/queries.css" />
+  </head>
+  <body>
+    <!-- Main -->
+    <main>
+      <h1 class="hidden">Notifications Page</h1>
+      <div class="card">
+        <div class="top-bar">
+          <h2 class="heading">Notifications</h2>
+          <span class="unread-number flex-center">3</span>
+          <button class="btn mark-read active">Mark all as read</button>
+        </div>
+
+        <div class="notification unread">
+          <img
+            src="assets/images/avatar-mark-webber.webp"
+            alt="Mark Webber"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Mark Webber</a> reacted to
+              your recent post
+              <a href="#" class="notification-post"
+                >My first tournament today!</a
+              >
+              <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">1m ago</p>
+          </div>
+        </div>
+
+        <div class="notification unread">
+          <img
+            src="assets/images/avatar-angela-gray.webp"
+            alt="Angela Gray"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Angela Gray</a> followed you
+              <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">5m ago</p>
+          </div>
+        </div>
+
+        <div class="notification unread">
+          <img
+            src="assets/images/avatar-jacob-thompson.webp"
+            alt="Jacob Thompson"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Jacob Thompson</a> has
+              joined your group
+              <a href="#" class="notification-group">Chess Club</a>
+              <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">1 day ago</p>
+          </div>
+        </div>
+
+        <div class="notification">
+          <img
+            src="assets/images/avatar-rizky-hasanuddin.webp"
+            alt="Rizky Hasanuddin"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Rizky Hasanuddin</a> sent
+              you a private message <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">5 days ago</p>
+            <a href="#" class="notification-message">
+              <p>
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="notification">
+          <img
+            src="assets/images/avatar-kimberly-smith.webp"
+            alt="Kimberly Smith"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Kimberly Smith</a> commented
+              on your picture
+              <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">1 week ago</p>
+          </div>
+          <a href="#" class="notification-image">
+            <img
+              src="assets/images/image-chess.webp"
+              alt="Girl playing chess"
+            />
+          </a>
+        </div>
+
+        <div class="notification">
+          <img
+            src="assets/images/avatar-nathan-peterson.webp"
+            alt="Nathan Peterson"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Nathan Peterson</a> reacted
+              to your recent post
+              <a href="#" class="notification-post"
+                >5 end-game strategies to increase your win rate</a
+              >
+              <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">2 weeks ago</p>
+          </div>
+        </div>
+
+        <div class="notification">
+          <img
+            src="assets/images/avatar-anna-kim.webp"
+            alt="Anna Kim"
+            class="notification-avatar"
+          />
+          <div class="notification-text">
+            <p class="notification-content">
+              <a href="#" class="notification-name">Anna Kim</a> left the group
+              <a href="#" class="notification-group">Chess Club</a>
+              <span class="red-dot"></span>
+            </p>
+            <p class="notification-time">2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="flex-center">
+      <span class="attribution"
+        >Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+      </span>
+      <span class="boxv">&boxv;</span>
+      <span class="attribution"
+        >Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/josh76543210"
+          target="_blank"
+          >josh76543210</a
+        >
+      </span>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
